@@ -1,11 +1,11 @@
-pyrogram
-tgcrypto
-aiohttp
-python-dotenv
-motor
-aiofiles
-dnspython
-apscheduler
-requests
-psutil
-pyromod
+pyrogram==2.0.106         # Latest version compatible with Heroku-22
+tgcrypto==1.2.3           # Compatible with Ubuntu 22.04 (Heroku-22)
+aiohttp==3.8.6            # Works with Python 3.10, compatible with Heroku-22
+python-dotenv==1.0.0      # Latest stable version
+motor==3.1.1              # MongoDB async driver, compatible with Heroku-22
+aiofiles==23.2.1          # Async file handling, compatible with Python 3.10+
+dnspython==2.4.2          # For MongoDB DNS connection strings, Heroku-22 compatible
+apscheduler==3.10.1       # Latest stable version, Heroku-22 compatible
+requests==2.31.0          # Compatible with Python 3.10, used for HTTP requests
+psutil==5.9.6             # Works with Ubuntu 22.04, compatible with Heroku-22
+pyromod==3.2.1            # Pyrogram mod for advanced Telegram usage
